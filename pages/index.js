@@ -153,6 +153,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Following are some of my best projects
+              <span style={{fontSize:'0.6rem'}}>Increasing playback speed recommended</span>
             </p>
           </div>
 

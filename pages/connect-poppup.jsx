@@ -9,7 +9,8 @@ import {
     AiFillTwitterCircle,
     AiFillLinkedin,
     AiFillYoutube,
-    AiFillInstagram
+    AiFillInstagram,
+    AiFillGithub
   } from "react-icons/ai";
 
 export default function AlertDialog({open=false,handleClickOpen=f=>f,handleClose=f=>f}) {
@@ -34,6 +35,8 @@ export default function AlertDialog({open=false,handleClickOpen=f=>f,handleClose
           <div id="connect" className="text-5xl flex justify-center gap-10 py-3 mt-1 text-gray-600 dark:text-gray-400">
             <a href="https://www.instagram.com/prabhjitsingh__/"><AiFillInstagram className='text-violet-800'/></a>
               <a href="https://www.youtube.com/channel/UCd03wsWcwzgm8XdvMmdxVwg"><AiFillYoutube className='text-violet-800'/></a>
+              <a href="https://github.com/thandibeer"><AiFillGithub className='text-violet-800'/></a>
+
           </div>
         </div>
           
