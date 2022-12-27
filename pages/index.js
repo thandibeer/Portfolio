@@ -100,7 +100,7 @@ export default function Home() {
               languages through varoius courses and group projects.
             </p>
           </div>
-          <div className="lg:flex gap-10">
+          <div className="lg:flex gap-10 lg:flex-row lg:flex-wrap">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <div className="flex items-center justify-center mx-auto">
                 <FaHtml5 className="bg-gradient-to-r from-red-400 to-emerald-800 text-white p-4 ml-4 border-none rounded-md" style={{ fontSize: '80' }} />
@@ -160,7 +160,7 @@ export default function Home() {
           <div className="flex flex-col gap-5 py-5 lg:flex-row lg:flex-wrap">
 
             <div className=" flex-1 text-center shadow-lg rounded-xl dark:bg-white" style={{flexBasis:'45%'}}>
-              <ReactPlayer style={{padding:'0.5rem',margin:'0 auto 0 auto',maxWidth:'100%'}} url="https://youtu.be/xXnj2lR5UHE" height={'450px'}  controls={true}/>
+              <ReactPlayer style={{padding:'0.5rem',margin:'0 auto 0 auto',maxWidth:'100%'}} url="https://youtu.be/xXnj2lR5UHE" height={'450px'} width={'100%'}  controls={true}/>
               <div className=" p-4">
                 <h2 className="text-left mb-1">Description</h2>
               <p style={{fontSize:'0.8rem',textAlign:'left'}}>
@@ -180,7 +180,7 @@ export default function Home() {
             </div>
 
             <div className=" flex-1 text-center shadow-lg rounded-xl dark:bg-white" style={{flexBasis:'45%'}}>
-            <ReactPlayer style={{padding:'0.5rem',margin:'0 auto 0 auto',maxWidth:'100%'}} url="https://www.youtube.com/watch?v=h2Jul6NomE4" height={'450px'}  controls={true}/>
+            <ReactPlayer style={{padding:'0.5rem',margin:'0 auto 0 auto',maxWidth:'100%'}} url="https://www.youtube.com/watch?v=h2Jul6NomE4" height={'450px'} width={'100%'}  controls={true}/>
               <div className=" p-4">
                 <h2 className="text-left mb-1">Description</h2>
               <p style={{fontSize:'0.8rem',textAlign:'left'}}>
